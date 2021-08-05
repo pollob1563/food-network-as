@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+}
+.her{
+    width: 50%;
+    color: rgb(107, 107, 107);
+    margin: 50px;
+    display: block;
+    margin-top: 150px;
+  }
+.eas{
+    width: 50%;
+}
+.eas img{
+    width: 100%;
+}
+h1{
+    font-size: 45px;
+    color: rgba(78, 68, 68, 0.623);
+}
+span{
+    color: orange;
+}
+.ord{
+    font-size: 18px;
+display: flex;
+height: 50px;
+width: 180px;
+margin-top: 15px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: absolute;
+color: white;
+background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+border: coral;
+border-radius: 50px;
+}
+.abt{
+    margin-top: 5%;
+    display: flex;
+    background: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.picmage{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+}
+.picmage img{
+   max-height: 90vh;
+    margin: 10px;
+    padding-left: 8%;
+    margin-top: 5.2%;
+}
+.abtme{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.blog-section{
+    display: flex;
+    margin-top: 5%;
+}
+
+.blg-head{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+.blog-post{
+    margin: 25px 20px 4px;
+    padding: 10px;
+    display: block;
+    width: 64vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+.blog-post img{
+    width: 60vh;
+    padding: 3px;
+}
+.blog-ex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.box{
+    margin-top: 50px;
+    display: block;
+    width: 95%;
+    margin-left: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 64px 165px;
+}
+.cntnum, .cntsb{
+    padding-right: 50px;
+    padding-left: 65px;
+}
+.cntnum{
+    font-size: 30px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    display: block;
+    height: 40vh;
+}
+h4{
+    padding: 20px;
+    color: darkgray;
+    font-size: 30px;
+}
+.footer p{
+    color: white;
+}
